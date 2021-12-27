@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 'Life of Bernard'
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+'Life of Bernard' is a simple game that was buillt in 2 weeks as the final team project during the 16-week Software Development Bootcamp at [Makers Academy](https://makers.tech/).
 
-## Available Scripts
+This repository contains the front-end of the project. See [here](https://github.com/Kntanos/EP3-Gaming-BEE) for the back-end.
 
-In the project directory, you can run:
+### Project Team:
+- <b>[AJOsmaston](https://github.com/AJOsmaston)</b>
+- <b>[Bernardleanse](https://github.com/bernardleanse)</b>
+- <b>[Jtc27](https://github.com/jtc27)</b>
+- <b>[Kntanos](https://github.com/Kntanos)</b>
+- <b>[Marazzo](https://github.com/marazzo)</b>
+- <b>[Serenabertozzi](https://github.com/serenabertozzi)</b>
 
-### `yarn start`
+<br>Deployed at [https://life-of-bernard.herokuapp.com/](https://life-of-bernard.herokuapp.com/) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Approach
+We decided to use the **MERN stack** (MongoDB, Express Js, React, Node Js) for the development of the project, even though it is not necessariy an obvious choice. None of us had prior experience with the technologies involved, so the primamry objective was to learn and implement at the same time. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The front-end of the application is developed with React.
+The styling was done using MaterialUI.
+The front-end makes calls to the back-end API that holds the logic of the game and saves user accounts and scores to the database.
 
-### `yarn test`
+Throughout the project we followed Agile practices, morning standups, evening retros and assigned a rotating scrum master. We managed communication with a Trello board and PRs required at least 2 reviews, before approval and merging. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The Game
+Bernard is embarking on his quest to become a junior software developer and has to fight against the 'monsters' he encounters.
 
-### `yarn build`
+Users have to register with a unique username and password, so the table of highscores can be maintained.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The game requires fast reflexes.The aim is to attack the monster as many times as possible before the timer counts down to zero or Bernard loses all his HP points. The more hits Bernard lands the higher the score. However, occasionally a sign 'Don't Attack' appears between Bernard and the monster, during which time, the player must stop attacking or otherwise Bernards HP suffers heavy loses.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="LoB.gif" width="400px">
